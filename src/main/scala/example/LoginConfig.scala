@@ -1,3 +1,5 @@
+package example
+
 final case class LoginConfig(maxLoginLength: Int, regex: String)
 
 trait HasLoginConfig {

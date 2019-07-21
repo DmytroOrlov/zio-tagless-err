@@ -1,3 +1,5 @@
+package capture
+
 /** container for captured call of tagless constructor */
 trait Capture[-F[_]] {
   def continue[A](k: F[A]): A

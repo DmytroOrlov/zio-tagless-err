@@ -1,4 +1,7 @@
-import scalaz.zio.ZIO
+package example
+
+import capture.Capture
+import zio.ZIO
 
 object Validations {
   type HasSignupConfig = HasLoginConfig with HasPasswordConfig
